@@ -1,0 +1,226 @@
+const data = [
+    {
+      category: "DP-900",
+      questions: [
+        {
+          question: " Quais são os três componentes do Azure Synapse Analytics? Escolha as respostas corretas:",
+          options: ["Armazenamento do Azure Data Lake Gen 2", 
+			        "Espaços de trabalho", 
+			        "Banco de dados SQL do Azure", 
+			        "Power BI"
+                    "Pipelines"],
+          answer: "Armazenamento do Azure Data Lake Gen 2, Espaços de trabalho, Pipelines",
+        },
+        {
+          question: "Você está criando um relatório do Power BI para sua empresa. Você precisa adicionar um visual que permite os visualizadores de relatórios façam perguntas sobre os dados usando o natural linguagem. Que tipo de visual você deve selecionar?",
+          options: ["Treemap", 
+			        "Q & A",
+			        "Gauge chart", 
+			        "Gráficos de rosquinhas"],
+          answer: ["Q & A"],
+        },
+ 	  {
+          question: "Para cada uma das tarefas a seguir, selecione Sim se elas forem adequadas para cargas de trabalho analíticas. Caso contrário, selecione Não. Tarefa ",
+          options: ["Para gerar relatórios ad-hoc complexos usando várias agregações", 
+			        "Para realizar transações E-commerce ", 
+			        "Para realizar análise de big data em NoSQL base de dados"],
+          answer: "Sim,
+                   No,
+                   Sim.",
+        },
+ 	  {
+          question: "Quais três das opções abaixo são vantagens do serviço de banco de Dados SQL do Azure em comparação com o SQL do Azure Instância Gerenciada? Cada resposta correta apresenta uma solção completa. Escolha as respostas corretas: ",
+          options: ["Base de dados Mail-suportado", 
+			"Totalmente compatível com instalações locais de SQL Server", 
+			"Menor custo", 
+			"Controle total sobre o mecanismo do SQL Server"
+            "Maior disponibilidade"
+            "Administração mínima"],
+          answer: "Menor custo, Maior disponibilidade, Administração mínima",
+        },
+ 	  {
+          question: "Você trabalha como engenheiro de dados. Quais dos tipos de armazenamento de dados são não relacionais? Cada resposta correta apresenta uma solução completa. Escolha as respostas:",
+          options: ["Um banco de dados SQL", 
+			        "Um banco de dados de documentos", 
+			        "Banco de dados do Azure para MariaDB", 
+			        "Um banco de dados gráfico"],
+          answer: "Um banco de dados de documentos, Um banco de dados gráfico",
+        },
+ 	  {
+          question: "O aplicativo da sua empresa exige que você armazene dados de perfil usuário, como endereços de envio e usuário preferências. Cada usuário pode ter vários endereços e diferentes campos de preferência. Todos os dados do usuário devem ser armazenados e recuperados de uma única estrutura de dados. Você precisa usar o melhor armazenamento de dados não relacionais para esse tipo de dados. Que tipo de armazenamento de dados não relacionais você deve usar? Escolha a resposta correta.",
+          options: ["Banco de dados gráfico", 
+			        "Coluna-banco de dados da família", 
+			        "Armazenamento de chave-valor", 
+			        "Banco de dados de documentos"],
+          answer: "Banco de dados de documentos",
+        },
+ 	  {
+          question: "Você precisa recomendar um armazenamento da dados otimizado para armazenar e recuperar arquivos de texto, vídeos e imagens. O armazenamento de dados deve armazenar metadados sobre o arquivo. Seu conteúdo e um ID exclusivo para cada arquivo. Que tipo de armazenamento de dados você deve recomendar?",
+          options: ["Gráfico ", 
+			        "Objeto", 
+			        "Documento", 
+			        "Chave/Valor"],
+          answer: "Objeto",
+        },
+ 	  {
+          question: "Para completar a frase. selecione a opção apropriada no menu suspenso. Escolha as opções corretas,
+
+                     Primary key é uma restrição usada para impor a integridade dos dados em bancos bancos de dados relacionais, indicando qual coluna (ou combinação de colunas) odentifica exclusivamente cada linha em uma tabela.", 
+
+          options: ["Primary key",
+                    "Chave estrangeira",
+                    "Heap"],
+          answer: "Primary key (Chave Primária)",
+        },
+ 	  {
+          question: "Para cada uma das afirmações a seguir, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não. Declaração: ",
+          options: ["O Azure Data Factory pode carregar dados do armazenamento de Blob do Azure, dados do Azure Lake Storage, Azure Cosmos DB e Azure Synapse Analytics.", 
+			        "O Azure Data Factory pode exportar dados para armazenamento do Azure Data Lake e somente análise do Azure Synapse.", 
+			        "O Azure Data Factory pode executar o serviço de integração do SQL Server (SSIS) pacotes usando a atividade executar pacote SSIS."],
+          answer: "Sim, 
+                   No, 
+                   Sim",
+        },
+ 	  {
+          question: "Você tem um modelo de dados de uma solução data warehouse, conforme mostrando no anexo. Você precisa classificar o modelo de dados. Para responder, selecione as opções apropriadas nos menus suspensos. Escolhas opções corretas:" ,
+          options: ["Modelo de dados: star schema", 
+			        "Tabela de investimentos: tabela de fatos", 
+			        "Tabela de conta: tabela de dimensões"],
+          answer: "Modelo de dados: star schema, Tabela de conta: tabela de dimensões",
+        },
+ 	  {
+          question: "Para cada uma das instruções a seguir sobre o banco de dados do Azure para MySQL, selecione Sim se a instrução for verdadeira, caso contrário Não.",
+          options: ["Banco de dados do Azure para MySQL fornece back automatizado-ups.", 
+			        "O banco de dados do Azure para MySQL em um banco de dados relacional sistema de gestão.", 
+			        "O banco de dados do Azure para MySQL tem uma única implantação opção."],
+          answer: "Sim, 
+                   Sim,
+                   No.",
+        },
+ 	  {
+          question: "Qual serviço de armazenamento do Azure inclui suporte para camadas de acesso Hot, Cool e Archive?",
+          options: ["Arquivo Azure", 
+			        "Tabela Azure", 
+			        "Blob Azure"],
+          answer: "Blob Azure",
+        },
+ 	  {
+          question: "Combine uma API do Cosmos DB com um tipo de dados não relacionais. Para responder, arraste o API apropriada para cada tipo de dados. Cada API pode ser usada uma vez, mais de uma vez ou não de todo. Arraste e solte as respostas:
+
+                    Dados colunares: Cassandra API, 
+			        Dados do gráfico: API Gremlin , 
+			        Documentos JSON: API principal", 
+
+          options: ["I- Cassandra API, API Gremlin, API principal ", 
+			        "II- API Gremlin, API principal, Cassandra API ", 
+			        "III- API principal, Cassandra API, API Gremlin ", 
+			        "IV- Tabela API, API Gremlin, API Principal"],
+
+          answer: "I-Cassandra API, API Gremlin, API principal ",
+        },
+ 	  {
+          question: "Você está envolvido na criação de um modelo de dados para sua empresa. Você precisa identificar os componentes corretos de um banco relacional para ajudá-lo com sua tarefa. Arraste os componentes para descrições. Cda componente pode ser usado uma vez, mais de uma vez não. Arraste e solte as respostas:,
+
+                    Instância de entidades de dados, como pessoas ou empresas: ROW, 
+			        Relações entre instâncias de entidades de dados, como empresa/funcionário: Chave, 
+			        Atributos de entidades de dados, como a endereço de E-mail de pessoa: Coluna",
+
+
+          options: ["I- ROW, Chave, Coluna", 
+			        "II- Chave, ROW, Coluna", 
+			        "III- Coluna, Chave, ROW", 
+			        "IV- Tabela, ROW, Chave"],
+
+          answer: "I-ROW, Chave, Coluna",
+        },
+ 	  {
+          question: "Você precisa oferecer suporte a um sistema de relatórios que realize a mineração de dados em uma grande quantidade de dados.Que tipo de carga de trabalho ou processamento você deve usar?",
+          options: ["Processamento de fluxo", 
+			        "Processamento em lote", 
+			        "Processamento analítico Online (OLAP)", 
+			        "Processamento de transações Online (OLTP)"],
+          answer: "Processamento analítico Online (OLAP)",
+        },
+ 	  {
+          question: "Para responder, selecione as opções apropriadas nos menus suspensos. Escolha as opções corretas:,
+
+                     Um gráfico o armazenamento de dados consiste arestas e nós usados para armazenar e consultar relaçôes complexas entre entidades. 
+                     Ele armazena todas as entidades como nós e constrói a relação entre essas entidades usando arestas.",
+          options:[ "Um Gráfico"
+			        "Uma Chave/valor", 
+			        "Uma Coluna", 
+			        "Um Objeto"],
+          answer: "Um gráfico",
+        },
+ 	  {
+          question: "Você precisa armazenar vídeos de treinamento para usuários da empresa. Qual serviço de dados do Azure você deve usar?",
+          options: ["Armazenamento de Blob do Azure", 
+			        "Armazenamento de tabela do Azure", 
+			        "Armazenamento de arquivos do Azure", 
+			        "Banco de dados SQL do Azure"],
+          answer: "Armazenamento de Blob do Azure",
+        },
+ 	  {
+          question: "Você precisa determinar quais atividades podem ser executadas inteiramente no serviço do Power BI. Para cada uma das afirmações a seguir, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não.",
+          options: ["Você pode criar relatórios e painéis no Serviço Power BI.", 
+			        "Você pode compartilhar e distribuir relatórios no serviço Power BI.", 
+			        "Você pode projetar modelagem de dados no Power BI serviços."],
+          answer: "Sim,
+                   Sim, 
+                   No",
+        },
+ 	  {
+          question: "Sua empresa usa o Apache Spark para tarefas de processamento de dados. Você precisa provisionar serviços do Azure compativeis com o Apache Spark. Quais dois serviços você deve usar? Cada resposta correta apresenta parte de solução. Escolhas as respostas corretas.",
+          options: ["Azure Databricks", 
+			        "Azure HDInsight", 
+			        "Armazenamento Do Azure Data Lake", 
+			        "Azure Data Factory"],
+          answer: "Azure Databricks, Azure HDInsight",
+        },
+
+        {
+            question: "Combine as descrições da estrutura do banco de dados relacional com a estrutura apropriada. Para responder, arraste a estrutura apropriada para cas=da descrição. Uma estrutura pode ser usada uma vez, mais do que uma vez, ou não. Arraste e solte as respostas:",
+            options: ["A estrutura usada para classificar valores para ajude a otimizar o desempenho da consulta: Índice", 
+                      "Uma tabela virtual cujo conteúdo é definido através de uma consulta: Ver", 
+                      "O valor utilizado para identificar cada entidade de tabela como única: Chave Primária", 
+                      "Chave Estrangeira"
+                      "Tabela"],
+            answer: "A estrutura usada para classificar valores para ajude a otimizar o desempenho da consulta: Índice, Uma tabela virtual cujo conteúdo é definido através de uma consulta: Ver, O valor utilizado para identificar cada entidade de tabela como única: Chave Primária",
+          },
+
+          {
+            question: "Para cada uma das afirmações a seguir, selecione Sim se a afirmação for verdadeiro. Caso contrário Não. Declaração:",
+            options: ["Você pode carregar um grande conjunto de dados de uma só vez usando processamento em lote", 
+                      "O processamento em lote requer dados quase em tempo real latência.", 
+                      "Você pode realizar análises complexas usando batch processando."],
+            answer: "Sim, 
+                     No, 
+                     Sim",
+          },
+
+          {
+            question: "Qual comando é um comando DML (Data Manipulation Language)? ",
+            options: ["Drop", 
+                      "Atualização", 
+                      "Criar", 
+                      "ALTER"],
+            answer: "Atualização",
+          },
+
+          {
+            question: "Você precisa implementar um armazenamento de dados não relacional para um novo aplicativo. O aplicativo precisa armazenar dados em formato JSON com esquema flexível. Todos os detalhes da entidade devem ser armazenados juntos na mesma estrutura. Que tipo de armazenamento de dados não relacionais você deve usar?",
+            options: ["Documento", 
+                      "Gráfico", 
+                      "Chave/valor", 
+                      "Objeto"],
+            answer: "Documento",
+          },
+          {
+            question: "Para cada uma das afirmações a seguir, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não. Declaração:",
+            options: ["Cada documento em um banco de dados de documentos normalmente contém todos os dados para uma única entidade.", 
+                      "Documentos em um banco de dados de documentos usam o mesmo esquema de dados para todos os documentos.", 
+                      "Documentos em um banco de dados de documentos aplicada entre docuemntos."],
+            answer: "Sim, 
+                     No, 
+                     No",
+          },
